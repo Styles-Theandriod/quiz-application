@@ -57,12 +57,19 @@ function checkAnswer(){
 loadQuestion()
 
 
-/* loops that i know are 
-for loop
-for in loop 
-for of loop
-while loop
-do while loop */
+let sentences = 'i am a programmer'
+let TextLength = sentences.length
+console.log(sentences.toUpperCase());
+console.log(sentences.length);
+console.log(TextLength);
+
+
+let words = 'automation '
+// let text = "We are the so-called \"Vikings\" from the north.";
+
+// slice out a string from a position 
+let text = "Apple, Banana, Kiwi";
+let part = text.slice(7, 13);
 
 
 
